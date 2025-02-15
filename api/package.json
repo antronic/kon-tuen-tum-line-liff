@@ -1,0 +1,32 @@
+{
+  "name": "kon-tum-web-api",
+  "version": "1.0.0",
+  "description": "API for kon-tum-web project",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "node app.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antronic/kon-tuen-tum-line-liff.git"
+  },
+  "keywords": [
+    "kon-tuen-tum-web"
+  ],
+  "author": "Jirachai Chansivanon <jirachai.c@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antronic/kon-tuen-tum-line-liff/issues"
+  },
+  "homepage": "https://github.com/antronic/kon-tuen-tum-line-liff#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.0",
+    "ollama": "^0.5.13",
+    "zod": "^3.24.2"
+  }
+}
