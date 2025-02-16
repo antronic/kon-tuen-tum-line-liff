@@ -3,9 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
   <title>Hello people</title>
 </head>
 <body>
   <h1>สวัสดีผู้รักในการหาทำ</h1>
+
+  <div id="box-01" class="bg-green" style="width: 100px; height: 100px;">
+    <p>กล่องนี้สีเขียว</p>
+  </div>
+
+  <div id="registration-form" class="text-center">
+    <h2>ลงทะเบียน</h2>
+    <form id="form-01" action="javascript:void(0);">
+      <div class="form-control">
+        <label for="name">ชื่อ</label>
+        <input type="text" id="name" name="name" placeholder="ชื่อของคุณ">
+      </div>
+
+      <div class="form-control">
+        <label for="email">อีเมล</label>
+        <input type="email" id="email" name="email" placeholder="อีเมลของคุณ">
+      </div>
+
+      <div class="form-control">
+        <label for="password">รหัสผ่าน</label>
+        <input type="password" id="password" name="password" placeholder="รหัสผ่านของคุณ">
+      </div>
+
+      <button id="btn-submit-form" type="submit" class="bg-green text-white">ลงทะเบียน</button>
+    </form>
+  </div>
+
+  <!-- Load script.js -->
+  <script src="./script.js"></script>
 </body>
 </html>

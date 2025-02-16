@@ -38,7 +38,6 @@
         loadProfile()
       })
   })
-
 </script>
 
 <nav class="bg-yellow-500 border-b border-yellow-400 text-white px-4 py-2 prompt-light fixed top-0 w-full z-10">
@@ -46,7 +45,6 @@
     <div></div>
     <div class="flex space-x-4 text-lg">
       <a href="/" class="">หน้าหลัก</a>
-      <a href="#" class="">กิจกรรม</a>
       <a href="#" class="">ติดต่อเรา</a>
 
 

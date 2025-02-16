@@ -54,7 +54,7 @@
               href="#"
               class="inline-flex items-center group mt-4 bg-green-500 hover:bg-green-600 active:bg-green-800 active:scale-95 active:shadow-sm transition-all shadow-md text-amber-100 px-4 py-2 text-lg rounded-md prompt-medium"
               onclick="{() => {
-                liff.login({ redirectUri: `${window.location.href}/profile` })
+                liff.login({ redirectUri: `${window.location.href}/profile${window.location.search}` })
               }}"
             >
               เข้าสู่ระบบด้วย LINE <Icon icon="mingcute:arrows-right-fill" class="group-hover:translate-x-1 group-active:translate-x-3 transition-transform inline-block" width="24" />
@@ -84,9 +84,9 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-12 gap-x-8 gap-y-8 px-8 container mx-auto pt-4 pb-16">
+  <div class="grid grid-cols-12 gap-x-8 gap-y-8 container mx-auto pt-4 pb-16">
     <!-- Start region - Card -->
-    <div class="group col-span-12 md:col-span-6 lg:col-span-4 bg-amber-50 rounded-lg overflow-clip hover:shadow-xl shadow-md transition-shadow">
+    <div class="group col-span-12 md:col-span-4 lg:col-span-4 bg-amber-50 rounded-lg overflow-clip hover:shadow-xl shadow-md transition-shadow">
       <div class="bg-red-900 overflow-clip relative aspect-square">
         <img width="100%" src="/img01.png" class="group-hover:scale-110 transition-transform" alt="">
       </div>
@@ -97,7 +97,7 @@
     </div>
     <!-- End region - Card -->
     <!-- Start region - Card -->
-    <div class="group col-span-12 md:col-span-6 lg:col-span-4 bg-amber-50 rounded-lg overflow-clip hover:shadow-xl shadow-md transition-shadow">
+    <div class="group col-span-12 md:col-span-4 lg:col-span-4 bg-amber-50 rounded-lg overflow-clip hover:shadow-xl shadow-md transition-shadow">
       <div class="bg-red-900 overflow-clip relative aspect-square">
         <img width="100%" src="/img02.png" class="group-hover:scale-110 transition-transform" alt="">
       </div>
@@ -108,7 +108,7 @@
     </div>
     <!-- End region - Card -->
     <!-- Start region - Card -->
-    <div class="col-span-12 md:col-span-6 lg:col-span-4 bg-amber-50 rounded-lg overflow-clip hover:shadow-xl shadow-md transition-shadow flex items-center">
+    <div class="col-span-12 md:col-span-4 lg:col-span-4 bg-amber-50 rounded-lg overflow-clip hover:shadow-xl shadow-md transition-shadow flex items-center">
       <div class="">
         <div class="p-4">
           <h3 class="text-amber-700 prompt-medium text-2xl">และกิจกรรม อีกมากมาย</h3>

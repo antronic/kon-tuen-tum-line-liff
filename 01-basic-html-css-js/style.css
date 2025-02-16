@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#registration-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 16px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+}
+
+.bg-green {
+    background-color: #4CAF50;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border-radius: 4px;
+    background-color: #ccc;
+}
+
+.prompt-light {
+  font-family: "Prompt", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.prompt-regular {
+  font-family: "Prompt", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.prompt-medium {
+  font-family: "Prompt", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.prompt-bold {
+  font-family: "Prompt", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.prompt-light-italic {
+  font-family: "Prompt", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.prompt-regular-italic {
+  font-family: "Prompt", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.prompt-medium-italic {
+  font-family: "Prompt", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.prompt-bold-italic {
+  font-family: "Prompt", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea {
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
