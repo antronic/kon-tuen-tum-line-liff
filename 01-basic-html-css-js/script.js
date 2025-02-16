@@ -1,6 +1,6 @@
 // On DOM ready
 document.addEventListener('DOMContentLoaded', function() {
-  const submitButton = document.getElementById('btn-submit-form')
+  const submitButton = document.querySelector('#btn-submit-form')
 
   submitButton.addEventListener('click', function() {
     const form = document.getElementById('form')
@@ -14,5 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       alert('กรุณากรอกข้อมูลให้ครบถ้วน')
     }
+  })
+
+  const box02 = document.querySelector('#box-02')
+  box02.addEventListener('click', function(e) {
+    e.target.style.backgroundColor = 'blue'
+    e.target.style.color = 'white'
+    e.target.innerHTML = 'This is a blue box'
   })
 })
