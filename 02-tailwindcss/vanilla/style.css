@@ -6,25 +6,6 @@
     box-sizing: border-box;
 }
 
-#registration-form {
-    width: 50%;
-    margin: 0 auto;
-    padding: 16px;
-    border: 1px solid #aaa;
-    border-radius: 8px;
-    background-color: #f4f4f4;
-}
-#registration-form h2 {
-  text-align: center;
-}
-
-.bg-green {
-    background-color: #4CAF50;
-}
-
-.text-white {
-  color: #fff;
-}
 
 .form-control {
     width: 100%;
